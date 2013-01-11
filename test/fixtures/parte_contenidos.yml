@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tiempo_produccion_rte: 1.5
+  restaurantes_producidos: 1
+  tiempo_produccion_carta: 1.5
+  cartas_producidas: 1
+  tiempo_modificacion_asociados: 1.5
+  modificaciones_asociados: 1
+  tiempo_modificacion_afiliados: 1.5
+  modificaciones_afiliados: 1
+  tiempo_revision_restaurante: 1.5
+  restaurantes_revisados: 1
+  tiempo_revision_carta: 1.5
+  cartas_revisadas: 1
+  tiempo_revision_modificaciones_asociados: 1.5
+  modificaciones_asociados_revisadas: 1
+  tiempo_revision_modificaciones_afiliados: 1.5
+  modificaciones_afiliados_revisadas: 1
+  tiempo_gestion: 1.5
+  tiempo_otras_tareas: 1.5
+  descripcion_otras_tareas: MyText
+  comentario: MyText
+  fecha: 2013-01-11
+
+two:
+  tiempo_produccion_rte: 1.5
+  restaurantes_producidos: 1
+  tiempo_produccion_carta: 1.5
+  cartas_producidas: 1
+  tiempo_modificacion_asociados: 1.5
+  modificaciones_asociados: 1
+  tiempo_modificacion_afiliados: 1.5
+  modificaciones_afiliados: 1
+  tiempo_revision_restaurante: 1.5
+  restaurantes_revisados: 1
+  tiempo_revision_carta: 1.5
+  cartas_revisadas: 1
+  tiempo_revision_modificaciones_asociados: 1.5
+  modificaciones_asociados_revisadas: 1
+  tiempo_revision_modificaciones_afiliados: 1.5
+  modificaciones_afiliados_revisadas: 1
+  tiempo_gestion: 1.5
+  tiempo_otras_tareas: 1.5
+  descripcion_otras_tareas: MyText
+  comentario: MyText
+  fecha: 2013-01-11

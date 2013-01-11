@@ -1,0 +1,63 @@
+<h1>Listing parte_contenidos</h1>
+
+<table>
+  <tr>
+    <th>Tiempo produccion rte</th>
+    <th>Restaurantes producidos</th>
+    <th>Tiempo produccion carta</th>
+    <th>Cartas producidas</th>
+    <th>Tiempo modificacion asociados</th>
+    <th>Modificaciones asociados</th>
+    <th>Tiempo modificacion afiliados</th>
+    <th>Modificaciones afiliados</th>
+    <th>Tiempo revision restaurante</th>
+    <th>Restaurantes revisados</th>
+    <th>Tiempo revision carta</th>
+    <th>Cartas revisadas</th>
+    <th>Tiempo revision modificaciones asociados</th>
+    <th>Modificaciones asociados revisadas</th>
+    <th>Tiempo revision modificaciones afiliados</th>
+    <th>Modificaciones afiliados revisadas</th>
+    <th>Tiempo gestion</th>
+    <th>Tiempo otras tareas</th>
+    <th>Descripcion otras tareas</th>
+    <th>Comentario</th>
+    <th>Fecha</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @parte_contenidos.each do |parte_contenido| %>
+  <tr>
+    <td><%= parte_contenido.tiempo_produccion_rte %></td>
+    <td><%= parte_contenido.restaurantes_producidos %></td>
+    <td><%= parte_contenido.tiempo_produccion_carta %></td>
+    <td><%= parte_contenido.cartas_producidas %></td>
+    <td><%= parte_contenido.tiempo_modificacion_asociados %></td>
+    <td><%= parte_contenido.modificaciones_asociados %></td>
+    <td><%= parte_contenido.tiempo_modificacion_afiliados %></td>
+    <td><%= parte_contenido.modificaciones_afiliados %></td>
+    <td><%= parte_contenido.tiempo_revision_restaurante %></td>
+    <td><%= parte_contenido.restaurantes_revisados %></td>
+    <td><%= parte_contenido.tiempo_revision_carta %></td>
+    <td><%= parte_contenido.cartas_revisadas %></td>
+    <td><%= parte_contenido.tiempo_revision_modificaciones_asociados %></td>
+    <td><%= parte_contenido.modificaciones_asociados_revisadas %></td>
+    <td><%= parte_contenido.tiempo_revision_modificaciones_afiliados %></td>
+    <td><%= parte_contenido.modificaciones_afiliados_revisadas %></td>
+    <td><%= parte_contenido.tiempo_gestion %></td>
+    <td><%= parte_contenido.tiempo_otras_tareas %></td>
+    <td><%= parte_contenido.descripcion_otras_tareas %></td>
+    <td><%= parte_contenido.comentario %></td>
+    <td><%= parte_contenido.fecha %></td>
+    <td><%= link_to 'Show', parte_contenido %></td>
+    <td><%= link_to 'Edit', edit_parte_contenido_path(parte_contenido) %></td>
+    <td><%= link_to 'Destroy', parte_contenido, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Parte contenido', new_parte_contenido_path %>

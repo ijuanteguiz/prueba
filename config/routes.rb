@@ -1,4 +1,14 @@
 Prueba::Application.routes.draw do
+  resources :parte_contenidos
+
+  resources :departments
+
+  resources :roles
+
+  resources :salaries
+
+  resources :users
+
   get "welcome/index"
 
   # The priority is based upon order of creation:

@@ -1,0 +1,33 @@
+<h1>Listing salaries</h1>
+
+<table>
+  <tr>
+    <th>Mes</th>
+    <th>Salario bruto</th>
+    <th>Bonus</th>
+    <th>Extra</th>
+    <th>Coste empresa</th>
+    <th>Dias trabajados</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @salaries.each do |salary| %>
+  <tr>
+    <td><%= salary.mes %></td>
+    <td><%= salary.salario_bruto %></td>
+    <td><%= salary.bonus %></td>
+    <td><%= salary.extra %></td>
+    <td><%= salary.coste_empresa %></td>
+    <td><%= salary.dias_trabajados %></td>
+    <td><%= link_to 'Show', salary %></td>
+    <td><%= link_to 'Edit', edit_salary_path(salary) %></td>
+    <td><%= link_to 'Destroy', salary, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Salary', new_salary_path %>

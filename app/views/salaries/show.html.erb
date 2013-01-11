@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Mes:</b>
+  <%= @salary.mes %>
+</p>
+
+<p>
+  <b>Salario bruto:</b>
+  <%= @salary.salario_bruto %>
+</p>
+
+<p>
+  <b>Bonus:</b>
+  <%= @salary.bonus %>
+</p>
+
+<p>
+  <b>Extra:</b>
+  <%= @salary.extra %>
+</p>
+
+<p>
+  <b>Coste empresa:</b>
+  <%= @salary.coste_empresa %>
+</p>
+
+<p>
+  <b>Dias trabajados:</b>
+  <%= @salary.dias_trabajados %>
+</p>
+
+
+<%= link_to 'Edit', edit_salary_path(@salary) %> |
+<%= link_to 'Back', salaries_path %>

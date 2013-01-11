@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mes: 1
+  salario_bruto: 
+  bonus: 
+  extra: 
+  coste_empresa: 
+  dias_trabajados: 1
+
+two:
+  mes: 1
+  salario_bruto: 
+  bonus: 
+  extra: 
+  coste_empresa: 
+  dias_trabajados: 1
